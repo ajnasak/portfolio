@@ -1,0 +1,209 @@
+*{
+    font-family: Tw Cen MT;
+}
+.hithere {
+    font-size: 22px;
+    margin-bottom: -20px;
+}
+.namehead{
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    color: #3b5998;
+    font-size: 60px;
+}
+.namehead1{
+    font-size: 20px;
+}
+
+.home{
+	padding:100px;
+	text-align:center;
+	height:100vh;
+		background:#ddd;
+}
+
+
+.row{
+    padding: 40px;
+    width: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .progressBar {
+      margin-bottom: 26px;
+      margin-bottom: 1.66em;
+      position: relative;
+      
+  }
+  .progressBar h4 {
+      font-size: 16px;
+      text-transform: none;
+      margin-bottom: 7px;
+      margin-bottom: .33em;
+      color: #ffffff;
+  }
+  .progressBarcontainer {
+      width: 100%;
+      height: 10px;
+      background: #ffffff63!important;
+      overflow: hidden;
+      border-radius: 0.3em;
+  }
+  .progressBarValue {
+      height: 10px;
+      float: left;
+      border-radius: 0.3em;
+      background: #ffffff; /* Old browsers */
+      background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 100%);
+      background: -webkit-linear-gradient(-45deg, #ffffff 0%, #ffffff 100%);
+      background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+  }
+  
+  .speech-bubble {
+      font-size: 0.75em;
+      line-height: 2em;
+      position: absolute;
+      top: -0.60em;
+      text-align: center;
+      min-width: 3em;
+      border-radius: 0.3em;
+      color: rgb(0, 0, 0);
+      display: none;
+  }
+  
+  .speech-bubble:after {
+      border: 0.5em solid transparent;
+      content: "";
+      margin-left: -0.5em;
+      position: absolute;
+      bottom: -50%;
+      left: 50%;
+  }
+  
+  .html {
+      left: calc(88.5% - 1.5em);
+  }
+    
+  .css{
+        left: calc(78.5% - 1.5em);
+  }
+  
+  .javascript{
+      left: calc(58.5% - 1.5em);
+  } 
+  
+  .react{
+      left: calc(48.5% - 1.5em);
+  }
+  
+  .jquery{
+      left: calc(58.5% - 1.5em);
+  }
+  
+  .html,
+  .css,
+  .javascript,
+  .react,
+  .jquery {
+      background: #ffffff;
+  }
+    
+  .html:after {
+      border-top-color: #ffffff77;
+  }
+  
+  .css:after{
+      border-top-color:#ffffff77;
+  }
+  
+  .javascript:after{
+      border-top-color:#ffffff77;
+  }
+  
+  .react:after{
+      border-top-color:#ffffff77;
+  }
+  
+  .jquery:after{
+      border-top-color:#ffffff77;
+  }
+  .mg {
+    margin-top: 70px!important;
+}
+
+
+
+
+
+.iconhover i:hover{
+  color: #3b5998;
+  transition: .5s;
+}
+.wrap{
+  padding: 0 !important;
+}
+.button{
+    border-radius: 50px !important;
+}
+
+.bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+    }
+    .bubbles{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        bottom: -70px;
+    
+    }
+    @keyframes bubble{
+        0%{
+            transform: translateY(0);
+            opacity: 0;
+        }
+        50%{
+    
+            opacity: 1;
+        }
+        70%{
+    
+            opacity: 1;
+        }
+        100%{
+            transform: translateY(-80vh);
+            opacity: 0;
+        }
+    }
+    .bubbles img:nth-child(1){
+        animation-delay: 2s;
+        width: 25px;
+    }
+    .bubbles img:nth-child(2){
+        animation-delay: 1s;
+    }
+    .bubbles img:nth-child(3){
+        animation-delay: 3s;
+        width: 25px;
+    }
+    .bubbles img:nth-child(4){
+        animation-delay: 4.5s;
+        width: 20px;
+    }
+    .bubbles img:nth-child(5){
+        animation-delay: 3s;
+    }
+    .bubbles img:nth-child(6){
+        animation-delay: 6s;
+        width: 30px;
+    }
+    .bubbles img:nth-child(7){
+        animation-delay: 7s;
+        width: 35px;
+    }
